@@ -3,18 +3,18 @@
 def countdown(number)
   count = number
   while count > 0
-    "#{count} SECOND(S)!"
+    return "#{count} SECOND(S)!"
     count -= 1
   end
-  "HAPPY NEW YEAR!"
+  return "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep(number)
   count = number
   while count >0
-    "#{count} SECOND(S)!"
+    return "#{count} SECOND(S)!"
     count -= 1
     sleep(1)
   end
-  "HAPPY NEW YEAR!"
+  return "HAPPY NEW YEAR!"
 end
